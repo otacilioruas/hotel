@@ -5,3 +5,18 @@
 #   
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
+
+#poderia iniciar chamado o criando o metodo em uma possive solicitação de cadastro
+
+name = user
+user = gets.chomp
+
+def name(user)
+  if user == String
+  print user
+else print "Nao existe!"
+  end
+end
+
+name(user)
+  
